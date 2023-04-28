@@ -21,7 +21,7 @@ function changeUser() {
     const button = document.querySelector(".button__changeUser")
     button.addEventListener('click', () => {
         localStorage.clear()
-        open('http://127.0.0.1:5500/index.html', '_self')
+        open('../../index.html', '_self')
     })
 }
 
